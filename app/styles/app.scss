@@ -1,6 +1,24 @@
 // @import 'yoga';
 // @import 'normalize';
 
-// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-// @import 'font-awesome';
+$fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+@import 'bulma';
+@import 'font-awesome';
 @import 'box-sizing';
+
+$blue: hsl(218, 71%, 53%);
+$primary: $blue;
+$white: #fff;
+
+.nav {
+  background: $primary;
+
+  &-item {
+    color: $white;
+  }
+}
+
+.is-brand{
+  font-size: 1.2rem;
+  font-weight: normal;
+}
